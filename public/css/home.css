@@ -1,0 +1,32 @@
+.topMenuBar{ z-index:99;padding:10px;background:rgba(100,150,140,0.5);margin-bottom:5px; }
+.topMenuBar>a{ color:#fff; }
+
+.productBox{ display:table-cell;border:solid 20px transparent;padding:5px;min-height:200px;vertical-align:top; }
+.productBox>span{ margin:5px;padding:5px;min-height:200px; }
+
+.myWaitModal{ position:absolute;top:0;bottom:0;left:0;right:0;background:rgba(80,80,0,0.5);z-index:9990;width:100%;height:100%; }
+.myWaitModal>i{ color:yellow;margin:100px auto; }
+
+span.color{ height:8px;width:20px;display:inline-table;border:1px dotted #000;border-radius:10px; }
+
+.grid { max-width: 100%; }
+.grid:after { content: '';display: block;clear: both; }
+
+.grid-item { 
+	width:120px;
+	height:220px;
+	float:left;
+	border:5px solid transparent;
+	background:rgba(100,120,130,0.5);
+	border-radius:5px;
+	padding:10px;
+	margin:5px;
+}
+
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
