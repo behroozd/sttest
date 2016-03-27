@@ -45,4 +45,4 @@ Route::resource('login'        , 'LoginController');
 Route::resource('login/{act}/' , 'LoginController');
 //Route::resource('/admin/products' , 'AdminController@products');
 
-Route::resource('test' , 'TestController@index');
+//Route::resource('test' , 'TestController@index');
